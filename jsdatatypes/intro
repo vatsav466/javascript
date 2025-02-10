@@ -1,0 +1,63 @@
+// JavaScript has 8 Datatypes
+// String
+// Number
+// Bigint
+// Boolean
+// Undefined
+// Null
+// Symbol
+// Object
+
+// The Object Datatype
+// The object data type can contain both built-in objects, and user defined objects:
+
+// Built-in object types can be:
+
+// objects, arrays, dates, maps, sets, intarrays, floatarrays, promises, and more.
+
+
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+
+
+// Note
+// A JavaScript variable can hold any type of data.
+
+
+
+// The Concept of Data Types
+// In programming, data types is an important concept.
+
+// To be able to operate on variables, it is important to know something about the type.
+
+// Without data types, a computer cannot safely solve this:
+
+// let x = 16 + "Volvo";
+
+
+// Does it make any sense to add "Volvo" to sixteen? Will it produce an error or will it produce a result?
+
+// JavaScript will treat the example above as:
+
+// let x = "16" + "Volvo";
+
+// Note
+// When adding a number and a string, JavaScript will treat the number as a string.
